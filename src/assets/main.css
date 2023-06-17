@@ -32,3 +32,23 @@ td {
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 }
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 24px;
+	}
+	.table-container {
+		width: 100%;
+		overflow-x: auto;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	th,
+	td {
+		padding: 8px;
+		font-size: 14px;
+	}
+}
